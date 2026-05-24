@@ -1,0 +1,66 @@
+- Sistema de gerenciamento para uma concessionária que permite cadastrar veículos e registrar clientes.
+
+Requisitos Funcionais:
+→ Cada veículo possui: modelo, fabricante, ano de fabricação, tipo (carro, moto, utilitário) e status (disponível/vendido).
+
+→ Cada cliente possui: nome, CPF, e contato.
+→ Permitir que um cliente compre um veículo disponível e registrar a data da venda.
+→ Atualizar o status do veículo e registrar o cliente comprador e a data da venda.
+
+Requisitos técnicos:
+
+→ Criar classes para Veículo, Cliente e pelo menos mais duas subclasses de herança.
+Exemplo: Veículo → Carro, Moto, Utilitário.
+Cliente → Pessoa Física, Pessoa Jurídica.
+
+→ Criar uma classe principal (Main) que contenha o menu e a lógica do sistema.
+
+→ Usar getters e setters para acessar e modificar os atributos das classes.
+
+→ Criar um método para exibir informações de forma diferente para cada tipo de veículo ou cliente (usando polimorfismo).
+
+→ Usar listas para armazenar veículos, clientes e vendas (opcional).
+
+→ Adicionar controle de exceções (pelo menos 2), por exemplo:
+Ano de fabricação acima de 2027 não deve ser aceito.
+CPF inválido, veículos inexistentes, etc.
+Documentação:
+Criar um diagrama mostrando a relação entre as classes Veículo, Cliente e suas respectivas heranças (ex: Carro, Pessoa Física etc.).
+Interface
+
+O sistema poderá ser executado no modo console ou visual (opcional).
+Quando a aplicação for iniciada, deverá ter um menu com as opções:
+
+1 - Cadastrar Veículo
+2 - Cadastrar Cliente (Pessoa Física / Jurídica)
+3 - Editar Veículo
+4 - Editar Cliente
+5 - Deletar Veículo
+6 - Deletar Cliente
+7 - Listar Veículos
+8 - Listar Clientes
+9 - Realizar Venda (opcional)
+10 - Ver Histórico de Vendas (opcional)
+11 - Sair
+
+
+Critérios de Avaliação
+O projeto será avaliado com base em:
+Atendimento a todos os requisitos propostos.
+Diagrama de Classes.
+Aplicação dos conceitos de orientação a objetos: encapsulamento, herança, polimorfismo.
+Estruturação e organização do código (boas práticas de nomenclatura, clareza etc.).
+Uso de listas (coleções) e manipulação dos dados.
+Tratamento de exceções.
+Aplicação testada e funcional.
+Formas de envio:
+Arquivo zipado do Projeto com as classes (recomendo que usem o Eclipse), pois fica mais fácil selecionar o projeto e zipar tudo que ele usou. Se usar o OnlineGDB ou outras ferramentas, salvem os arquivos em uma pasta e TESTEM antes de enviar, PARA NÃO PERDEREM PONTO.
+Ou enviem um link do projeto no GitHub. Caso precisem de ajuda, eu ensino como usar.
+Consultem todas as nossas aulas (incluindo as do professor Márcio Klein) até o momento e também a documentação do Java.
+
+ENTREGA 28/05/2026
+COLOQUEM EM FORMA DE COMENTÁRIO NA CLASSE PRINCIPAL TODOS OS NOMES DOS INTEGRANTES DO GRUPO. Cada grupo elege um líder e somente ele faz o envio no Classroom.
+
+Trabalhos iguais (aos outros grupos) serão automaticamente zerados.🧐⚠️
+
+Outra observação: a data de entrega vai ficar em cima do meu prazo para a entrega das notas de vocês na secretaria. Portanto, sejam cautelosos, pois vou avaliar e já enviar as notas.
