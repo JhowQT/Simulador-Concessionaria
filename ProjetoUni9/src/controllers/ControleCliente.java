@@ -1,5 +1,1 @@
-package control;
-
-public culo {
-    
-}
+# ajustes
