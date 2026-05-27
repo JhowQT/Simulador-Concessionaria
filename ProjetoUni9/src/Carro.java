@@ -1,4 +1,6 @@
-public class Carro extends Veiculo{
+import model.Veiculo;
+
+public class Carro extends Veiculo {
 
 
 

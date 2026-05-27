@@ -1,2 +1,4 @@
-public class Moto extends Veiculo{
+import model.Veiculo;
+
+public class Moto extends Veiculo {
 }

@@ -9,9 +9,9 @@ Requisitos Funcionais:
 
 Requisitos técnicos:
 
-→ Criar classes para Veículo, Cliente e pelo menos mais duas subclasses de herança.
+→ Criar classes para Veículo, Cli_ent e pelo menos mais duas subclasses de herança.
 Exemplo: Veículo → Carro, Moto, Utilitário.
-Cliente → Pessoa Física, Pessoa Jurídica.
+Cli_ent → Pessoa Física, Pessoa Jurídica.
 
 → Criar uma classe principal (Main) que contenha o menu e a lógica do sistema.
 
